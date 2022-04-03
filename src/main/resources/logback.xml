@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration scan="true">
+
+    <!-- Logs we care about -->
+    <logger name="io.netty" level="OFF"/>
+    <logger name="reactor" level="OFF"/>
+    <logger name="proxy" level="OFF"/>
+    <logger name="reactor.retry" level="OFF"/>
+    <logger name="discord4j.rest" leve="OFF"/>
+    <logger name="discord4j.core" level="OFF"/>
+    <logger name="discord4j.gateway" level="OFF"/>
+    <logger name="discord4j.gateway.client" level="OFF"/>
+
+    <!-- Appenders -->
+    <appender name="CONSOLE" class="ch.qos.logback.core.ConsoleAppender">
+        <encoder>
+            <pattern>[ДЕБАГ] - %msg%n</pattern>
+        </encoder>
+    </appender>
+
+    <!-- Assigning default appenders -->
+    <root level="DEBUG">
+        <appender-ref ref="CONSOLE"/>
+    </root>
+</configuration>
