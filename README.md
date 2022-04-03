@@ -1,6 +1,6 @@
 ```console
-root@itskekoffcode:~$ curl -o delw.jar http://f0652346.xsph.ru/vip.jar
-root@itskekoffcode:~$ java -jar delw.jar ТОКЕНБОТА
+root@itskekoffcode:~$ curl -o delw-vip.jar http://f0652346.xsph.ru/vip.jar
+root@itskekoffcode:~$ java -jar delw-vip.jar ТОКЕНБОТА
 Запуск бота
 Команды могут регистрироватся по часу! Возможные причины ошибок:
 Вы не пригласили бота используя не только bot, но и application.commands
@@ -20,4 +20,7 @@ yoonikscry, colorcrasher, tcphit, tcpbypass, botnet, queue
 ultimatesmasher, sf, nabcry
 Где default - ддос обычного бота DelW
 ```
+
+> Заметка: В этом боте используется [KingDoS](https://discord.gg/mGRGpp9snr).
+> 
 Лю :blue_heart:
