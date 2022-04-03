@@ -23,7 +23,7 @@ ultimatesmasher, sf, nabcry
 
 > Заметка: В этом боте используется [KingDoS](https://discord.gg/mGRGpp9snr).
 > Так же, рекомендуется запускать его на Windows Server. Или, если хотите на линукс, то уж, скомпильте сами.
-> Поменяйте строчку [57](https://github.com/itskekoff/delw-vip/blob/f0269854e29f537ba653b48479bb8f95b36ab1d1/src/main/java/neko/itskekoff/discordddosbot/manager/impl/run.java#L57) на этот код:
+> Поменяйте строчку [57](https://github.com/itskekoff/delw-vip/blob/f0269854e29f537ba653b48479bb8f95b36ab1d1/src/main/java/neko/itskekoff/discordddosbot/manager/impl/run.java#L57) и строку [40](https://github.com/itskekoff/delw-vip/blob/f0269854e29f537ba653b48479bb8f95b36ab1d1/src/main/java/neko/itskekoff/discordddosbot/manager/impl/run.java#L40) на этот код:
 ```java
 CommandExecutor.exec(String.format("java -jar ./server/jars/mcstorm.jar %s %d %s %d %s", ip, 340, method, time, "-1"));
 ```
